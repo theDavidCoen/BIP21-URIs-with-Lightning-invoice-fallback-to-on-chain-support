@@ -47,3 +47,17 @@ The Lightning Wallet should be able to read the QRcode, decode the URI and set t
  Name | Can decode BIP21 URIs LN invoice + onchain fallback | Priority to onchain or LN? | Can create BIP21 URIs with LN invoice QRcode | Notes |
  ------------ | ------------- | ------------- | ------------ | ------------- | 
 [BTCpay Server](https://btcpayserver.org/) | YES | onchain | YES | BTCpay can handle onchain payments if a hot wallet is active
+
+
+## ATM providers
+
+ Name | Can decode BIP21 URIs LN invoice + onchain fallback | Priority to onchain or LN? | Can create BIP21 URIs with LN invoice QRcode | Notes |
+ ------------ | ------------- | ------------- | ------------ | ------------- | 
+[n.a.](https://#) | n.a. | n.a. | n.a. | n.a.
+
+
+## Other services
+
+ Name | Can decode BIP21 URIs LN invoice + onchain fallback | Priority to onchain or LN? | Can create BIP21 URIs with LN invoice QRcode | Notes |
+ ------------ | ------------- | ------------- | ------------ | ------------- | 
+[n.a.](https://#) | n.a. | n.a. | n.a. | n.a.
