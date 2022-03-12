@@ -15,15 +15,17 @@ In this image from https://github.com/peakshift, you can see the main QRcode sol
 For more info about these URI schemes, please refer to https://github.com/peakshift/bitcoin-ux/blob/master/payments/qr-codes.md#user-content-fn-2-8df82013099d376db7fb75c896a383be
 
 ## What's the goal?
-The goal of this repo is to have a list of wallets, exchanges, payment processors, ATM providers and other Bitcoin-related services <b>able to SCAN the unique QRcode and correctly decode</b> BIP21 URIs with Lightning invoice fallback to on-chain. Also, <b>to track the services that can ENCODE this kind of URIs and CREATE the unique QRcode.</b>
-<br>Can this be defined a standard? Let's find out!
+The goal of this repo is to have a list of wallets, exchanges, payment processors, ATM providers and other Bitcoin-related services **able to SCAN the unique QRcode and correctly decode** BIP21 URIs with Lightning invoice fallback to on-chain. Also, **to track the services that can ENCODE this kind of URIs and CREATE the unique QRcode.**
+<br>Can this be defined a standard? 
+<br>Let's find out!
 
 ## How to test compatibility?
-<b>The onchain-only wallet/service</b> should be able to read the QRcode, decode the URI and set the payment screen for the onchain transaction (basically it keeps the 'bitcoin:' part of the URI and drops the 'lightning' part).<br>
-<b>The Lightning Wallet</b> should be able to read the QRcode, decode the URI and set the screen for the offchain payment. <br>It COULD give however a different priority and go for the onchain fallback as a standard behavior or due to routing error / no path, if it support also onchain payments. <br>In this case it's important to specify what's the reason of this fallback in the notes, if possible.
+**The onchain-only wallet/service** should be able to read the QRcode, decode the URI and set the payment screen for the onchain transaction (basically it keeps the 'bitcoin:' part of the URI and drops the 'lightning' part).<br>
+**The Lightning Wallet** should be able to read the QRcode, decode the URI and set the screen for the offchain payment. <br>It COULD give however a different priority and go for the onchain fallback as a standard behavior or due to routing error / no path, if it supports also onchain payments. <br>In this case it's important to specify what's the reason of this fallback in the notes if possible, for example:
+*"It gives priority to onchain transactions as a default"*, or *"It correctly goes onchain as fallback when no path available"*.
 
-<b>To test the decoding compatibility</b> you can go to https://donations.davidcoen.it, enter a >15 euro amount and scan with your wallet/service (DON'T pay). <br>
- <b>To test the encoding (QRcode creation) compatibility</b>, you can generate an invoice/payment request with your wallet/service and look at the URI.
+**To test the decoding compatibility** you can go to https://donations.davidcoen.it, enter a >15 euro amount and scan with your wallet/service (DON'T pay). <br>
+**To test the encoding (QRcode creation) compatibility**, you can generate an invoice/payment request with your wallet/service and look at the URI.
 
 ## Wallets
 
