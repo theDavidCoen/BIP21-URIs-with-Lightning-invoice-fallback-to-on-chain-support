@@ -28,7 +28,18 @@ The Lightning Wallet should be able to read the QRcode, decode the URI and set t
 
  Name | Can decode BIP21 URIs LN invoice + onchain fallback | Priority to onchain or LN? | Can create BIP21 URIs with LN invoice QRcode | Notes |
  ------------ | ------------- | ------------- | ------------ | ------------- | 
-[Edge](https://edge.app) | YES | onchain | NO | NO Lightning Network support
+[Edge Wallet](https://edge.app) | YES | onchain | NO | NO Lightning Network support
+[Enjin Wallet](https://enjin.io/products/wallet) | YES | onchain | NO | NO Lightning Network support
+[Math Wallet](https://mathwallet.org/en-us/) | YES | onchain | NO | NO Lightning Network support
+[Token Pocket](https://www.tokenpocket.pro/en/developer) | YES | onchain | NO | NO Lightning Network support. Bad UI for tiny amounts
+
+
+
+## Exchanges/Custodial services
+
+ Name | Can decode BIP21 URIs LN invoice + onchain fallback | Priority to onchain or LN? | Can create BIP21 URIs with LN invoice QRcode | Notes |
+ ------------ | ------------- | ------------- | ------------ | ------------- | 
+[Binance](https://www.binance.com/it) | NO | n.a. | NO | NO basic support for BIP21 URIs
 
 
 ## Payment Processors
