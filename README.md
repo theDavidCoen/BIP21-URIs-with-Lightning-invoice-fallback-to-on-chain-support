@@ -24,7 +24,7 @@ The Lightning Wallet should be able to read the QRcode, decode the URI and set t
 <b>To test the decoding compatibility</b> you can go to https://donations.davidcoen.it, enter a >15 euro amount and scan with your wallet/service (DON'T pay). <br>
  <b>To test the encoding (QRcode creation) compatibility</b>, you can generate an invoice/payment request with your wallet/service and look at the URI.
 
-### Wallets
+## Wallets
 
  Name | Can decode BIP21 URIs LN invoice + onchain fallback | Priority to onchain or LN? | Can create BIP21 URIs with LN invoice QRcode | Notes |
  ------------ | ------------- | ------------- | ------------ | ------------- | 
