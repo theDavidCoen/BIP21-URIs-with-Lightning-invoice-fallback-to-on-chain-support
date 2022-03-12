@@ -16,6 +16,7 @@ For more info about these URI schemes, please refer to https://github.com/peaksh
 
 ## What's the goal?
 The goal of this repo is to have a list of wallets, exchanges, payment processors, ATM providers and other Bitcoin-related services <b>able to SCAN the unique QRcode and correctly decode</b> BIP21 URIs with Lightning invoice fallback to on-chain. Also, <b>to track the services that can ENCODE this kind of URIs and CREATE the unique QRcode.</b>
+Can this be defined a standard? Let's find out!
 
 ## How to test compatibility?
 The onchain-only wallet/service should be able to read the QRcode, decode the URI and set the payment screen for the onchain transaction (basically it keeps the 'bitcoin:' part of the URI and drops the 'lightning' part).
