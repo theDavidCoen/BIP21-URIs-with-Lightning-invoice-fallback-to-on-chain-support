@@ -31,13 +31,17 @@ The goal of this repo is to have a list of wallets, exchanges, payment processor
 
  Name | Can decode BIP21 URIs LN invoice + onchain fallback | Priority to onchain or LN? | Can create BIP21 URIs with LN invoice QRcode | Notes |
  ------------ | ------------- | ------------- | ------------ | ------------- | 
+[Blue Wallet](https://bluewallet.io/) | YES | NO PRIORITY | NO | You can scan the QRcode and you get a screen in which you choose the wallet (onchain or LN)
+[Breez Wallet](https://breez.technology/) | YES | Lightning | NO | Onchain is available only with atomic swaps (Boltz) or if you close the channel(s)
+[Coinomi](https://www.coinomi.com/) | YES | onchain | NO |  NO Lightning Network support
 [Edge Wallet](https://edge.app) | YES | onchain | NO | NO Lightning Network support
 [Enjin Wallet](https://enjin.io/products/wallet) | YES | onchain | NO | NO Lightning Network support
 [Math Wallet](https://mathwallet.org/en-us/) | YES | onchain | NO | NO Lightning Network support
+[Phoenix](https://phoenix.acinq.co/) | YES | NO PRIORITY | NO | It asks if you want to pay onchain or with Lightning. Lightning is recommended
+[Samourai](https://samouraiwallet.com/) | YES | onchain | NO | NO Lightning Network support
 [Token Pocket](https://www.tokenpocket.pro/en/developer) | YES | onchain | NO | NO Lightning Network support. Bad UI for tiny amounts
-
-
-
+[Trust Pocket](https://trustwallet.com/) | YES | onchain | NO | NO Lightning Network support
+[Zeus](https://zeusln.app/) | YES | onchain | NO | It doesn't use the Lightning invoice and automatically select the onchain address
 ## Exchanges/Custodial services
 
  Name | Can decode BIP21 URIs LN invoice + onchain fallback | Priority to onchain or LN? | Can create BIP21 URIs with LN invoice QRcode | Notes |
